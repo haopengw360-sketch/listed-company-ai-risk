@@ -1,0 +1,24 @@
+{
+  "sample_rows": 2796,
+  "sample_firms": 901,
+  "test_rows_2023_to_2024": 864,
+  "test_loss_rate": 0.3576388888888889,
+  "xgboost_roc_auc": 0.8644158721828624,
+  "xgboost_pr_auc": 0.7543312110561032,
+  "xgboost_f1": 0.7448680351906158,
+  "xgboost_recall": 0.8220064724919094,
+  "features": [
+    "size",
+    "lev",
+    "roa",
+    "growth",
+    "cashflow",
+    "tangibility",
+    "bm",
+    "turnover",
+    "ret",
+    "sigma",
+    "net_margin",
+    "current_loss"
+  ]
+}

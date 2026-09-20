@@ -1,0 +1,11 @@
+{
+  "reports": 2732,
+  "firms": 864,
+  "test_reports": 828,
+  "llm_pilot_firmyears": 3,
+  "financial_roc_auc": 0.8681879616533082,
+  "combined_roc_auc": 0.8702121640735502,
+  "auc_change": 0.0020242024202419273,
+  "combined_f1": 0.7434715821812596,
+  "combined_recall": 0.7986798679867987
+}

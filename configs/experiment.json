@@ -1,0 +1,18 @@
+{
+  "experiment_name": "annual_operating_risk_v1",
+  "target": "next_loss",
+  "industry_prefixes": ["I65", "C39"],
+  "feature_year_start": 2020,
+  "rolling_validation_years": [2021, 2022],
+  "threshold_validation_year": 2022,
+  "final_train_end_year": 2022,
+  "locked_test_feature_year": 2023,
+  "parameter_candidates": 36,
+  "random_seed": 42,
+  "transformer_model": "BAAI/bge-small-zh-v1.5",
+  "promotion_gate": {
+    "minimum_roc_auc": 0.85,
+    "minimum_f1": 0.70,
+    "minimum_recall": 0.75
+  }
+}

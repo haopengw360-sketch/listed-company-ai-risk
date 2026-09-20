@@ -1,0 +1,2 @@
+﻿created_at_utc,experiment_name,config_fingerprint,test_feature_year,financial_roc_auc,financial_f1,financial_text_roc_auc,financial_text_f1
+2026-09-20T03:07:41.400841+00:00,annual_operating_risk_v1,f19ee11d9b3a9fe0,2023,0.869261494504213,0.7558823529411764,0.8726449787835927,0.7641509433962265

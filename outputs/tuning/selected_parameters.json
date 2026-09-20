@@ -1,0 +1,66 @@
+{
+  "financial": {
+    "params": {
+      "n_estimators": 400,
+      "max_depth": 2,
+      "learning_rate": 0.02,
+      "min_child_weight": 3,
+      "subsample": 0.9,
+      "colsample_bytree": 0.75,
+      "reg_alpha": 0.0,
+      "reg_lambda": 3.0
+    },
+    "threshold": 0.5750000000000001,
+    "rolling_validation_mean_auc": 0.8281196667094837,
+    "rolling_validation_mean_pr_auc": 0.6565794303897179
+  },
+  "financial_text": {
+    "params": {
+      "n_estimators": 250,
+      "max_depth": 3,
+      "learning_rate": 0.02,
+      "min_child_weight": 3,
+      "subsample": 0.9,
+      "colsample_bytree": 0.9,
+      "reg_alpha": 0.1,
+      "reg_lambda": 3.0
+    },
+    "threshold": 0.62,
+    "rolling_validation_mean_auc": 0.8318050347967152,
+    "rolling_validation_mean_pr_auc": 0.6626291418124148
+  },
+  "experiment": {
+    "name": "annual_operating_risk_v1",
+    "config": {
+      "experiment_name": "annual_operating_risk_v1",
+      "target": "next_loss",
+      "industry_prefixes": [
+        "I65",
+        "C39"
+      ],
+      "feature_year_start": 2020,
+      "rolling_validation_years": [
+        2021,
+        2022
+      ],
+      "threshold_validation_year": 2022,
+      "final_train_end_year": 2022,
+      "locked_test_feature_year": 2023,
+      "parameter_candidates": 36,
+      "random_seed": 42,
+      "transformer_model": "BAAI/bge-small-zh-v1.5",
+      "promotion_gate": {
+        "minimum_roc_auc": 0.85,
+        "minimum_f1": 0.7,
+        "minimum_recall": 0.75
+      }
+    },
+    "config_fingerprint": "f19ee11d9b3a9fe0",
+    "data_fingerprints": {
+      "financial_panel": "a2197b1cca9d0d14",
+      "text_metrics": "1abc25bf6f4da619",
+      "company_master": "dd80f630417563ec"
+    },
+    "created_at_utc": "2026-09-20T03:07:41.400841+00:00"
+  }
+}

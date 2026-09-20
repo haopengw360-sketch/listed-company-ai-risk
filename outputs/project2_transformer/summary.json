@@ -1,0 +1,15 @@
+{
+  "model": "BAAI/bge-small-zh-v1.5",
+  "embedding_dimensions": 512,
+  "selected_pca_components": 16,
+  "selected_c": 0.05,
+  "selected_bge_weight": 0.30000000000000004,
+  "reports": 2732,
+  "firms": 864,
+  "test_reports": 828,
+  "bge_only_auc": 0.6036209335219236,
+  "financial_lexicon_auc": 0.8702121640735502,
+  "ensemble_auc": 0.8654659751689455,
+  "ensemble_auc_change": -0.0047461889046046535,
+  "ensemble_f1": 0.7480680061823802
+}
